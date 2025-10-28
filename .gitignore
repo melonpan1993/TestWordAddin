@@ -1,16 +1,19 @@
 # =========================================
-# Office Add-in (Word) プロジェクト用 .gitignore
+# Office Add-in (Word) プロジェクト用 .gitignore（GitHub Pages対応）
 # =========================================
 
 # Node modules
 node_modules/
 
-# Build 出力
+# Build 出力（ローカル用）
 dist/
 build/
 out/
 .tmp/
 .temp/
+
+# GitHub Pages 用フォルダ（docs）は除外しない！
+# docs/   ← ここは削除またはコメントアウトしておく
 
 # 環境・ローカル設定
 .env
@@ -37,23 +40,4 @@ desktop.ini
 
 # Office Add-in キャッシュ
 office-addin-debugging.json
-office-addin-manifest.log
-office-addin-taskpane-debug.log
-office-addin-dev-certs/
-
-# テスト関係
-coverage/
-*.lcov
-.jest/
-__tests__/
-__snapshots__/
-
-# TypeScript ビルド成果物
-*.tsbuildinfo
-*.map
-*.d.ts
-
-# 一時ファイル・バックアップ
-*.zip
-*.bak
-*.tmp
+office-addin-manife

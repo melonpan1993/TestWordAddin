@@ -2,16 +2,18 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>27cff327-a5da-491a-bef5-133725cf2b6f</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Contoso</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="TestWordAddin"/>
-  <Description DefaultValue="A template to get started."/>
+  <ProviderName>OnYourFeet Inc.</ProviderName>
+  <DefaultLocale>ja-JP</DefaultLocale>
+  <DisplayName DefaultValue="文体変換アドイン"/>
+  <Description DefaultValue="文書内の文章を「です・ます調」から「である調」に変換します。"/>
   <IconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <HighResolutionIconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/support.html"/>
+
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://melonpan1993.github.io</AppDomain>
   </AppDomains>
+
   <Hosts>
     <Host Name="Document"/>
   </Hosts>
@@ -72,13 +74,12 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://melonpan1993.github.io/TestWordAddin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
+        <bt:String id="GetStarted.Title" DefaultValue="アドインの使い方"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Wordのホームタブから文体変換アドインを起動できます。"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
+        <bt:String id="GetStarted.Title" DefaultValue="アドインの使い方"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Wordのホームタブから文体変換アドインを起動できます。"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

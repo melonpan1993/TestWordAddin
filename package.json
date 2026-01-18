@@ -12,7 +12,8 @@
     "dev_server_port": 3000
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "npm run build:app && npm run copy:public",
+    "copy:public": "cp -r public/* dist/",
     "build:dev": "webpack --mode development",
     "dev-server": "webpack serve --mode development",
     "lint": "office-addin-lint check",

@@ -7,7 +7,7 @@
   <DisplayName DefaultValue="文体変換アドイン"/>
   <Description DefaultValue="文書内の文章を「です・ます調」から「である調」に変換します。"/>
   <IconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-128.png"/>
+  <HighResolutionIconUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://melonpan1993.github.io/TestWordAddin/support.html"/>
 
   <AppDomains>
